@@ -1,0 +1,61 @@
+.top-banner {
+  margin-top: 40px;
+  position: relative;
+}
+.top-banner-img {
+  background-image: url(../images/aboutUs/iStock-460207273-2000x1171.jpg);
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+.top-banner-content {
+  position: absolute;
+  font-weight: 300;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, transparent 140%);
+}
+
+.top-banner-content .name {
+  font-size: 2.1rem;
+}
+.about-us {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.about-iso {
+  width: 405px;
+  max-width: 100%;
+}
+@media (max-width: 991px) {
+  .top-banner {
+    margin-top: 130px;
+  }
+  .top-banner-img {
+    height: 35vw;
+  }
+  .top-banner-content {
+    position: relative;
+    background-image: none;
+    color: #2f3337;
+    background-color: #e7e9ea;
+  }
+  .top-banner-content .name {
+    margin-bottom: 10px;
+  }
+  .banner-content {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .top-banner {
+    margin-top: 90px;
+  }
+  .top-banner-img {
+    height: 50vw;
+  }
+}

@@ -1,0 +1,196 @@
+.form {
+  background-color: #f6f7f7;
+  padding-bottom: 97px;
+}
+.menu li a {
+  color: #5b6770;
+}
+a:hover {
+  text-decoration: underline;
+}
+.nav-shadow {
+  box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+}
+.cooperateClinic-title {
+  margin-top: 130px;
+  margin-bottom: 56px;
+  padding-top: 80px;
+}
+.cooperateClinic-title h2 {
+  color: #001a70;
+  margin-bottom: 10px;
+  font-size: 2.1rem;
+  font-weight: 300;
+}
+.cooperateClinic-title p {
+  color: #2f3337;
+  margin-bottom: 0;
+}
+label {
+  font-size: 14px;
+}
+.form-control {
+  background-color: #f5f8fa;
+  height: 40px;
+}
+
+#suggestion {
+  padding: 10px 15px;
+  background-color: #f5f8fa;
+  border: 1px solid #cbd6e2;
+}
+.form-select {
+  background-color: #f5f8fa;
+  height: 40px;
+}
+.notify {
+  margin-top: 32px;
+  margin-bottom: 49px;
+}
+.btn {
+  padding: 12px 24px;
+  border-color: #001a70;
+  background-color: #001a70;
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+}
+.btn:hover {
+  color: #fff;
+}
+.required {
+  color: red;
+}
+.taiwan-clinic {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.taiwan-clinic h2 {
+  color: #001a70;
+  font-size: 1.63362rem;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+.taiwan-clinic .row > div {
+  margin-top: 20px;
+}
+.clinic-card {
+  border-radius: 0.625rem;
+
+  background-color: #e7e9ea;
+  color: #2f3337;
+  transition: color 0.4s, background-image 0.4s;
+  position: relative;
+  overflow: hidden;
+}
+.clinic-card-bg {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  background-position: center;
+  transition: opacity 0.4s;
+}
+
+.clinic-card-bg::before {
+  content: "";
+  position: absolute;
+  background: linear-gradient(0deg, rgba(35, 39, 83, 0.4), rgba(35, 39, 83, 0.4)), linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.5) 80%);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.clinic-card-content {
+  z-index: 2;
+  padding: 25px 30px;
+  position: relative;
+}
+.clinic-card:hover {
+  color: #fff;
+}
+.clinic-card:hover:hover .clinic-card-bg {
+  opacity: 1;
+}
+.clinic-card:hover a {
+  color: #fff;
+}
+.clinic-address {
+  font-size: 14px;
+}
+.clinic-card a {
+  transition: color 0.4s;
+  font-weight: bold;
+  font-size: 14px;
+}
+.clinic-phone {
+  color: #232753;
+}
+.clinic-map {
+  color: #001a70;
+}
+.clinic-card-special {
+  border-radius: 0.625rem;
+  padding: 25px 30px;
+  background-color: #001a70;
+  color: #fff;
+}
+.clinic-card-special a {
+  color: #fff;
+  font-size: 14px;
+}
+.find-store {
+  padding-top: 65px;
+  padding-bottom: 65px;
+  background-image: url("../images/cooperateClinic/find-store-bg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.find-store .row > div {
+  margin-top: 1.25rem;
+}
+.find-store h3 {
+  margin-bottom: 20px;
+  font-size: 1.63362rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+.find-store h3 span {
+  margin-bottom: 10px;
+}
+.find-store .content {
+  padding: 40px;
+  border-radius: 0.625rem;
+  color: #fff;
+}
+.find-store .content img {
+  width: 40px;
+}
+.find-store .content-1 .content {
+  background-color: rgba(0, 26, 112, 0.9);
+}
+.find-store .content-2 .content {
+  background-color: rgba(54, 90, 189, 0.9);
+}
+@media (max-width: 768px) {
+  .cooperateClinic-title {
+    margin-top: 90px;
+    padding-top: 40px;
+  }
+  .form{
+      padding-bottom: 57px;
+  }
+  .taiwan-clinic {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .find-store .content-1 {
+    order: 2;
+  }
+  .find-store .content-2 {
+    order: 1;
+  }
+}

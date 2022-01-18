@@ -1,0 +1,234 @@
+.top-banner {
+  margin-top: 40px;
+  position: relative;
+}
+.top-banner-img {
+  background-image: url("../images/caseShared/Rafael-Nadal-Profile-Picture-scaled-e1614185061988-2000x611.jpg");
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+.top-banner-content {
+  position: absolute;
+  font-weight: 300;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, transparent 140%);
+}
+.top-banner-content .category {
+  padding-top: 50px;
+}
+.top-banner-content .name {
+  font-size: 2.1rem;
+}
+.player {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.player-img {
+  width: 41.66667%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.player-img img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.player-content {
+  width: 50%;
+}
+.player-content h2 {
+  color: #00bfb3;
+  font-size: 2.1rem;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+.treatment-instrument {
+  background-color: #005670;
+  color: #fff;
+}
+.treatment-content {
+  width: 33.3333%;
+}
+.treatment-content h2 {
+  margin-bottom: 10px;
+  font-size: 1.75rem;
+}
+.treatment-content a {
+  display: inline-block;
+  background-color: #00bfb3;
+  border-color: #00bfb3;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 5px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+.treatment-img {
+  width: 66.6666%;
+}
+.player-talk {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #f6f7f7;
+  text-align: center;
+}
+.player-talk .speak {
+  margin-bottom: 56px;
+}
+.player-talk img {
+  margin-bottom: 16px;
+}
+.player-talk .name {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.instrument {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.instrument h2 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.product {
+  width: 25%;
+  margin-bottom: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.product a {
+  border-radius: 50px 0 50px 0;
+  overflow: hidden;
+  background: #f6f7f7;
+}
+.product:hover .product-img {
+  transform: scale(1.1);
+}
+.product:hover .readmore {
+  text-decoration: underline;
+}
+.product-img-bg {
+  overflow: hidden;
+  padding-bottom: 63%;
+  position: relative;
+}
+.product-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center top;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.4s, -webkit-transform 0.4s;
+}
+.product-content {
+  padding: 20px;
+}
+.product-content .title {
+  margin-bottom: 5px;
+  color: #00bfb3;
+  font-weight: bold;
+}
+.product-content .content {
+  font-size: 80%;
+  font-weight: 400;
+  color: #2f3337;
+  height: 95px;
+}
+.product-content .readmore {
+  color: #005670;
+  font-weight: bold;
+  font-size: 0.875rem;
+}
+@media (max-width: 1199px) {
+  .treatment-instrument {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+@media (max-width: 991px) {
+  .top-banner {
+    margin-top: 130px;
+  }
+  .top-banner-img {
+    height: 35vw;
+  }
+  .top-banner-content {
+    position: relative;
+    background-image: none;
+    color: #2f3337;
+    background-color: #e7e9ea;
+  }
+  .top-banner-content .name {
+    margin-bottom: 50px;
+  }
+  .player-img {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .player-content {
+    width: 100%;
+  }
+  .treatment-content {
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .treatment-img {
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .product {
+    width: 50%;
+  }
+  .product-content {
+    padding: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .top-banner {
+    margin-top: 90px;
+  }
+  .top-banner-img {
+    height: 50vw;
+  }
+  .top-banner-content .category {
+    padding-top: 20px;
+  }
+  .player {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .player-img {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .treatment-content {
+    width: 100%;
+    order: 2;
+    padding: 0;
+  }
+  .treatment-img {
+    width: 100%;
+    order: 1;
+    margin-bottom: 40px;
+    padding: 0;
+  }
+  .player-talk {
+    padding: 40px;
+  }
+  .product {
+    width: 100%;
+    padding: 0;
+  }
+  .instrument {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}

@@ -1,0 +1,292 @@
+.top-banner {
+  margin-top: 40px;
+  position: relative;
+}
+.top-banner-video {
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+.top-banner-video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.top-banner-content {
+  position: absolute;
+  font-weight: 300;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, transparent 140%);
+}
+.top-banner-content .title {
+  font-size: 2.1rem;
+  font-weight: bold;
+}
+.top-banner .contact-us {
+  font-weight: bold;
+  display: inline-block;
+  background-color: #00bfb3;
+  border-color: #00bfb3;
+  color: #fff;
+  font-size: 1.09375rem;
+  text-align: center;
+  line-height: 1.5;
+  border-radius: 5px;
+  padding: 0.85rem 1.75rem;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+}
+.instrument-introduce {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #f6f7f7;
+}
+.instrument-content {
+  width: 50%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.instrument-img {
+  width: 50%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.instrument-content h2 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.principle {
+  background-color: #005670;
+  color: #fff;
+  position: relative;
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+.principle-content {
+  width: 50%;
+  padding-right: 100px;
+}
+.principle-content h2 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.principle-img {
+  background-image: url("../images/instrumentIntroduction/at7_1.jpg");
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  width: calc(((100vw - 1160px) / 2) + 580px);
+}
+.treatments {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.treatments h2 {
+  margin-bottom: 40px;
+  font-weight: bold;
+  font-size: 1.75rem;
+}
+.treatments .location {
+  width: 50%;
+}
+.location h5 {
+  font-size: 1.16375rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.location ul {
+  padding-left: 40px;
+  list-style: disc;
+}
+.doctor-say {
+  padding-top: 65px;
+  padding-bottom: 65px;
+  background-image: url(../images/instrumentIntroduction/at7_2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.doctor-say .speak {
+  width: 50%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.doctor-say .speak div {
+  padding: 40px;
+  border-radius: 0.625rem;
+  color: #fff;
+  height: 100%;
+}
+.accessoriesConsumables {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.accessoriesConsumables h2 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.accessories > div {
+  width: 25%;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+}
+.accessories .accessories-card {
+  overflow: hidden;
+  border-radius: 50px 0 50px 0;
+  height: 100%;
+  background-color: #f6f7f7;
+  border: 5px solid #f6f7f7;
+}
+.card-img {
+  padding-bottom: 63%;
+  background-position: center;
+  background-size: cover;
+}
+.card-content {
+  padding: 20px;
+}
+.card-content .title {
+  color: #00bfb3;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.card-content .content {
+  font-size: 80%;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.precautions {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #f6f7f7;
+}
+.precautions h2 {
+  margin-bottom: 10px;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+.precautions ul {
+  list-style: disc;
+  padding-left: 40px;
+  margin-bottom: 16px;
+}
+.precautions ul ul {
+  list-style: circle;
+  margin-bottom: 0;
+}
+@media (max-width: 991px) {
+  .top-banner {
+    margin-top: 130px;
+  }
+  .top-banner-video {
+    height: 35vw;
+  }
+  .top-banner-content {
+    position: relative;
+    background-image: none;
+    color: #2f3337;
+    background-color: #e7e9ea;
+  }
+  .top-banner-content .wrap {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .top-banner-content .banner-content {
+    width: 100%;
+  }
+  .instrument-content {
+    width: 100%;
+    margin-bottom: 40px;
+    padding: 0;
+  }
+  .instrument-img {
+    width: 100%;
+    padding: 0;
+  }
+  .principle-img {
+    width: calc(((100vw - 740px) / 2) + 246.66667px);
+  }
+  .principle-content {
+    width: 66.66667%;
+  }
+  .treatments h2 {
+    margin-bottom: 20px;
+  }
+  .treatments .location {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .accessories > div {
+    width: 50%;
+  }
+}
+@media (max-width: 768px) {
+  .top-banner-content .wrap {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .top-banner {
+    margin-top: 90px;
+  }
+  .top-banner-video {
+    height: 50vw;
+  }
+  .instrument-introduce {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .instrument-content {
+    order: 2;
+  }
+  .instrument-img {
+    order: 1;
+    margin-bottom: 40px;
+  }
+  .principle {
+    padding-top: 0px;
+    padding-bottom: 40px;
+  }
+  .principle-img {
+    position: relative;
+    width: 100%;
+    padding-bottom: 55%;
+    margin-bottom: 20px;
+  }
+  .principle-content {
+    width: 100%;
+    padding-right: 0;
+  }
+  .treatments {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .doctor-say .speak {
+    width: 100%;
+    margin-top: 1.25rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .accessoriesConsumables {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .accessories > div {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .precautions {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}

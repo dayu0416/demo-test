@@ -1,0 +1,143 @@
+.link {
+  border-bottom: 1px solid #dee2e6;
+  margin-top: 130px;
+}
+.backNews {
+  font-weight: bold;
+  color: #5b6770;
+  font-size: 0.875rem;
+}
+.shared {
+  position: relative;
+  cursor: pointer;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+.shared:hover ul {
+  opacity: 1;
+}
+.shared span {
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+.shared .fa-share-alt {
+  margin-left: 10px;
+}
+.shared ul {
+  opacity: 0;
+  position: absolute;
+  bottom: -50px;
+  right: 0;
+  padding: 5px 10px;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+  border-radius: 0.625rem;
+  background-color: #fff;
+  transition: visibility 0.4s, opacity 0.4s;
+}
+
+.shared li {
+  padding: 5px;
+}
+.shared a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  transition: background-color 0.4s;
+}
+.shared a:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.article {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.date {
+  color: #f9423a;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.article {
+  width: 58.33333%;
+}
+.article .title {
+  color: #621244;
+  margin-bottom: 40px;
+  font-size: 2.1rem;
+  font-weight: 300;
+}
+.article-footer .title {
+  font-weight: 700;
+  font-size: 1.16375rem;
+}
+
+.article-footer .info-title {
+  font-size: 1.16375rem;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+.article-footer li {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.article-footer a {
+  color: #f9423a;
+  font-weight: bold;
+}
+.article-footer a:hover {
+  text-decoration: underline;
+}
+.related-reports {
+  width: 33.3333%;
+  padding: 20px;
+  background-color: #f6f7f7;
+  margin-top: 40px;
+}
+.related-reports .related-title {
+  margin-bottom: 1.25rem;
+  font-size: 1.63362rem;
+  font-weight: 300;
+}
+.related-article {
+  background-color: #fff;
+  border-radius: 50px 0 50px 0;
+  padding: 40px;
+  margin-bottom: 20px;
+}
+.related-article .title {
+  color: #f9423a;
+  font-style: italic;
+}
+.related-article a {
+  color: #f9423a;
+  font-weight: bold;
+}
+.menu li a {
+  color: #5b6770;
+}
+.nav-shadow {
+  box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+}
+@media (max-width: 1199px) {
+  .article {
+    padding-right: 20px;
+  }
+  .related-reports {
+    width: 41.66667%;
+  }
+}
+@media (max-width: 768px) {
+  .link {
+    margin-top: 90px;
+  }
+  .article {
+    padding-right: 0;
+    width: 100%;
+  }
+  .related-reports {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}
